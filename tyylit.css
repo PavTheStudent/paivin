@@ -1,0 +1,177 @@
+
+
+https://coolors.co/c17767-4a5043-b6cee2-cddba9-210203
+kupari c17767
+tummempi vihreä 4a5043
+vaalsin b6cee2
+vaalvihr cddba9
+mustaruskea 210203
+
+
+
+img {
+  max-width: 100%;
+    height: auto;
+}
+
+.etusivukuva {
+	width: 100%;
+}
+
+.navbar{
+	padding: 20px;
+	background-color: #4a5043;
+}
+
+.nav-link {
+	padding: 10px;
+	
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	} 
+	
+li {
+	display: inline;
+	}
+	
+li {
+	margin: 10px;
+	}
+	
+li .active {
+  background-color: #cddba9;
+  color: #210203;
+  font-weight: bold;
+}
+
+h1	h2{
+	font-family: "Spectral", serif;
+	color: #210203;
+	margin: 10px;
+}
+
+body { background-color: #cddba9; color: #210203; margin: 10px
+	}
+
+p{
+	text-align: justify;	
+	}
+
+a {
+	  text-decoration: none;
+	  color: #210203;
+	  background-color: #c17767;
+	  border-radius: 25px;
+ }
+
+div	 {
+		
+	font-family: "Montserrat", sans-serif;
+	}
+	
+font-family: href="https://www.fontpair.co/fonts/spectral 
+
+body {
+	font-family: "spectral";
+		
+	}
+		
+	
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #4a5043;
+  width: 100%;
+	}
+	
+button {
+	background-color: #c17767;
+	border-radius: 20px;
+	padding: 10px;
+	
+	}	
+	
+/*	
+#page-container2 {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 50px;
+}
+*/	
+	
+#page-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+.container {
+	padding: 10px;
+		}
+	
+.thumbnale {
+	padding: 5px;
+	width: 100%;
+}
+	
+main {
+	width: 70%;
+	margin: 10px;
+}
+
+.aside{
+
+  width: 30%
+  /*position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #4a5043;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+@media only screen and  (max-width: 600px) {
+	main {width: 100%;}
+	.aside {width: 100%;}
+}
+
+#textarea {
+  width: 50%;
+  height: 150px;
+  margin: 20px;
+   
+}
+/*
+.sijainti {
+	text-align:center;
+}
+*/
+	
+.kasvot {
+	filter: blur(10px)
+}
+
+.aloituskuva {
+	background: url(aloituskuva.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	
+}
+.otsikko {
+	text-decoration:bold;
+}
+
